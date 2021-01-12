@@ -1,0 +1,1322 @@
+header {
+    padding-left: 75px;
+    padding-right: 75px;
+
+
+}
+
+/*Forsiden*/
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: #5c0202;
+
+}
+
+
+#topNav {
+
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.6em;
+    letter-spacing: 4px;
+    text-align: right;
+    margin-top: -71px;
+    margin-right: -6px;
+
+}
+
+
+#forsiden {
+    background-color: #e3d5c1;
+    /*fallback color*/
+    background-color: rgba(226, 169, 138, 0.53);
+
+
+
+}
+
+#forsideBillede {
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-top: 10px;
+}
+
+#solElementSprite {
+    background-image: url(solen.svg);
+    background-size: cover;
+    width: 15vw;
+    height: 13vw;
+    pointer-events: none;
+
+
+}
+
+#solElementContainer {
+    position: absolute;
+    top: 11vw;
+    left: 52vw;
+
+}
+
+/*sol-animation*/
+.pulse {
+    animation-name: pulse_kf;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+
+}
+
+
+@keyframes pulse_kf {
+
+    0% {
+        transform: scale(100%);
+    }
+
+    50% {
+        transform: scale(78%);
+    }
+
+    100% {
+        transform: scale(100%);
+
+    }
+}
+
+/*slut*/
+
+/*portfoliosiden*/
+
+#body {
+    background-color: #e3d5c1;
+    /*fallback color*/
+    background-color: rgba(226, 169, 138, 0.17);
+    overflow-x: hidden;
+
+
+
+}
+
+#topNavPortfolio {
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.6em;
+    letter-spacing: 4px;
+    text-align: right;
+    margin-top: -71px;
+    margin-right: 35px;
+
+}
+
+#logoPortfolio {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: #5c0202;
+    margin-left: 35px;
+}
+
+/*slut*/
+
+/*cv siden*/
+#topNavCV {
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.6em;
+    letter-spacing: 4px;
+    text-align: right;
+    margin-top: -71px;
+    margin-right: -6px;
+}
+
+#logoCV {
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: 50px;
+    color: #5c0202;
+    margin-left: 0;
+
+}
+
+#bodyCV {
+    background-color: #e3d5c1;
+    /*Fallback color*/
+    background-color: rgba(226, 169, 138, 0.53);
+
+
+}
+
+/*slut*/
+
+
+/*unvisited link*/
+a:link {
+    color: #254a41;
+    text-decoration: none;
+}
+
+/*visited link*/
+a:visited {
+    color: #254a41;
+}
+
+/*visited link logo*/
+a:hover h1 {
+    color: #5c0202;
+}
+
+/*mouse over*/
+a:hover {
+    color: darkred;
+}
+
+/*selected link*/
+a:active {
+    color: #254a41;
+}
+
+
+
+/*cv*/
+
+#omMig .sectionWrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color: #5c0202;
+    /*background-color: #e3d5c1;*/
+    /*fallbackcolor*/
+    background-image: linear-gradient(rgb(235, 174, 140), #f5e7d1);
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-bottom: 35px;
+}
+
+#omMig img {
+    width: 400px;
+    height: 520px;
+    padding-left: 90px;
+    margin-top: 23px;
+    border-radius: 100%;
+
+}
+
+#omMig .colTo {
+    padding-right: 90px;
+    margin-top: 5px;
+}
+
+#omMig .colTo p {
+    margin-top: 3px;
+}
+
+#omMig .sectionWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+
+}
+
+
+/*slide animation*/
+#omMig figure {
+    position: absolute;
+    left: 10%;
+    margin-top: 10px;
+    animation: slide 3s 1;
+}
+
+
+@keyframes slide {
+    from {
+        left: -40%;
+    }
+
+    to {
+        left: 10%;
+    }
+}
+
+/*slut*/
+
+
+/*temaTo*/
+
+
+
+#htmlIntro {
+    border-top: 2px solid #5c0202;
+    margin-top: 20px;
+    margin-left: 75px;
+    margin-right: 75px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+
+}
+
+#htmlIntro h3 {
+
+    margin-top: 35px;
+    font-family: 'Roboto Mono',
+        monospace;
+    text-align: center;
+
+
+
+}
+
+#htmlIntro h4 {
+    margin-top: 35px;
+    margin-bottom: 0px;
+    font-family: 'Roboto Mono',
+        monospace;
+
+
+
+
+}
+
+#htmlIntro p {
+
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+
+
+}
+
+
+#temaToSecondSection {
+    border-top: 2px solid;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+
+#temaToSecondSection h3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 0;
+    font-family: 'Roboto Mono',
+        monospace;
+
+
+
+}
+
+#temaToSecondSection img {
+    width: 550px;
+    height: 430px;
+    margin-left: -45px;
+    margin-top: 10px;
+
+}
+
+#temaToSecondSection figcaption p {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: -45px;
+}
+
+#temaToSecondSection p {
+
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+
+
+#temaToFourthSection {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+#temaToFourthSection,
+h4 {
+    margin-top: 35px;
+    margin-bottom: 0px;
+    font-family: 'Roboto Mono',
+        monospace;
+
+
+
+}
+
+#temaToFourthSection p {
+
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+#favicon {
+    max-width: 100%;
+    width: 300px;
+
+}
+
+#splashbillede {
+    max-width: 100%;
+    width: 550px;
+
+}
+
+
+#skitseFavicon {
+    padding-left: 300px;
+}
+
+
+
+#temaToSixthSection {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#temaToSixthSection h4 {
+    margin-top: 35px;
+    margin-bottom: 0px;
+    font-family: 'Roboto Mono',
+        monospace;
+
+
+
+}
+
+#temaToSixthSection p {
+
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+@media (max-width:680px) {
+
+
+    #temaToSecondSection,
+    #temaToThirdSection,
+    #temaToFourthSection,
+    #temaToFifthSection,
+    #temaToSixthSection {
+        width: 90%;
+        overflow: hidden;
+    }
+
+    #htmlIntro p {
+        font-size: 13px;
+        text-align: justify;
+
+    }
+
+    #htmlIntro {
+        margin-left: 28px;
+        margin-right: 28px;
+        margin-top: 10px;
+    }
+
+    #splashbillede {
+        margin-left: 0;
+
+    }
+
+    #favicon {
+        margin-left: 36px;
+    }
+
+    #skitseFavicon {
+        padding-left: 37px;
+    }
+
+    #htmlIntro .section_wrapper {
+        margin-top: -22px;
+    }
+
+    /*navigation på CV siden*/
+
+    #topNavCV {
+        text-align: center;
+        margin-left: -100px;
+        margin-right: -89px;
+        padding-left: 10px;
+        margin-top: -62px;
+        padding-top: 5px;
+        font-family: 'Roboto Mono', monospace;
+        line-height: 4.6em;
+        letter-spacing: 4px;
+    }
+
+    #logoCV h1 {
+        font-size: 43px;
+        margin-left: -58px;
+        margin-right: -52px;
+
+    }
+
+    #omMig .sectionWrapper {
+        display: grid;
+        grid-template-columns: none;
+        margin-left: -3px;
+        margin-right: -3px;
+        margin-top: -20px;
+        margin-bottom: 0px;
+        padding-bottom: 0;
+
+    }
+
+    #omMig img {
+        width: 205px;
+        height: 260px;
+    }
+
+    /*slut*/
+
+    /*navigation og overskrift på forsiden*/
+
+    #topNav {
+        margin-left: -80px;
+        margin-right: -78px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    #logo h1 {
+        font-size: 43px;
+        margin-left: -61px;
+        margin-right: -84px;
+    }
+
+    /*navigation og overskrif på portfoliosider*/
+    #topNavPortfolio {
+        margin-left: -85px;
+        margin-right: -95px;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    #logoPortfolio h1 {
+        font-size: 42px;
+        margin-left: -82px;
+        margin-right: -84px;
+    }
+
+    /*slut*/
+
+    /*forsiden baggrund*/
+    #solElementContainer {
+        top: 40vw;
+    }
+
+    #forsideBillede {
+        display: none;
+    }
+
+    #forsiden {
+        background-image: url(mobil.svg);
+        height: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    #solElementContainer {
+        position: absolute;
+        top: 36vw;
+        left: 44vw;
+
+    }
+
+    #solElementSprite {
+        background-image: url(solen.svg);
+        background-size: cover;
+        width: 30vw;
+        height: 28vw;
+        pointer-events: none;
+    }
+
+    /*slut*/
+
+    #omMig .colTo {
+        margin-right: -60px;
+        margin-left: -60px;
+        padding: 0;
+        margin-top: 239px;
+    }
+
+
+
+    /*slide animation*/
+    #omMig figure {
+        position: absolute;
+        left: 3%;
+        margin-top: 10px;
+        animation: slide 3s 1;
+    }
+
+
+    @keyframes slide {
+        from {
+            left: -40%;
+        }
+
+        to {
+            left: 3%;
+        }
+    }
+
+}
+
+/*slut*/
+
+/*ux-siden*/
+
+#uxIntro {
+    border-top: 2px solid;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#uxIntro h3 {
+
+    margin-top: 35px;
+    font-family: 'Roboto Mono',
+        monospace;
+    text-align: center;
+
+
+}
+
+#uxIntro p {
+
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+
+}
+
+#uxFirstSection {
+    border-top: 2px solid;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#uxFirstSection .sectionWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    margin-top: -20px;
+    align-content: center;
+
+
+}
+
+#uxFirstSection h3 {
+    margin-top: 35px;
+    margin-bottom: 0;
+    font-family: 'Roboto Mono',
+        monospace;
+
+
+
+
+}
+
+#uxFirstSection h4 {
+    margin-top: 35px;
+    margin-bottom: 0;
+    font-family: 'Roboto Mono',
+        monospace;
+
+
+
+
+}
+
+#uxFirstSection p {
+
+    font-family: 'Poppins', sans-serif;
+
+
+
+
+}
+
+#uxSecondSection {
+    border-top: 2px solid;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+#uxSecondSection h3 {
+    margin-top: 35px;
+    margin-bottom: 0;
+    font-family: 'Roboto Mono',
+        monospace;
+
+
+
+
+}
+
+#uxSecondSection h4 {
+    margin-top: 35px;
+    margin-bottom: 0;
+    font-family: 'Roboto Mono',
+        monospace;
+
+
+
+
+}
+
+#uxSecondSection p {
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#uxThirdSection {
+    border-top: 2px solid;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+#uxThirdSection h3 {
+    margin-top: 35px;
+    margin-bottom: 0px;
+    font-family: 'Roboto Mono',
+        monospace;
+
+}
+
+uxThirdSection h4 {
+    margin-top: 35px;
+    margin-bottom: 0;
+    font-family: 'Roboto Mono',
+        monospace;
+
+
+}
+
+#uxThirdSection p {
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#uxThirdSection .sectionWrapper img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
+}
+
+
+#uxThirdSection figcaption {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 279px;
+
+
+}
+
+@media (max-width:680px) {
+
+
+    #uxFirstSection,
+    #uxSecondSection,
+    #uxThirdSection,
+    #temaToFifthSection {
+        width: 90%;
+        overflow: hidden;
+    }
+
+    #uxFirstSection .sectionWrapper {
+        display: grid;
+        grid-template-columns: none;
+    }
+
+    #uxIntro p {
+        font-size: 13px;
+        text-align: justify;
+
+    }
+
+
+
+    #uxIntro {
+        margin-left: 28px;
+        margin-right: 28px;
+        margin-top: 10px;
+    }
+
+    #uxIntro .section_wrapper {
+        margin-top: -22px;
+    }
+
+
+
+    #uxThirdSection .sectionWrapper img {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+
+
+    }
+
+
+    #uxThirdSection figcaption {
+        margin-left: 0;
+    }
+
+}
+
+
+
+/*content afsnit*/
+
+#contentIntro {
+    border-top: 2px solid;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#contentIntro h3 {
+    margin-top: 35px;
+    font-family: 'Roboto Mono',
+        monospace;
+    text-align: center;
+
+
+
+}
+
+#contentIntro p {
+
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+
+}
+
+
+#contentFirstSection .col2 {
+    margin-top: 50px;
+}
+
+#contentFirstSection {
+    border-top: 2px solid;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#contentFirstSection .sectionWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    margin-top: -20px;
+    align-content: center;
+
+
+}
+
+
+
+#contentFirstSection h3 {
+    margin-top: 35px;
+    font-family: 'Roboto Mono',
+        monospace;
+
+
+}
+
+
+#contentFirstSection h4 {
+    margin-top: 35px;
+    font-family: 'Roboto Mono',
+        monospace;
+
+}
+
+#contentFirstSection p {
+
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+#contentSecondSection {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#contentSecondSection .sectionWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+
+
+
+
+}
+
+
+
+#contentSecondSection h4 {
+    margin-top: 35px;
+    font-family: 'Roboto Mono',
+        monospace;
+
+}
+
+#contentSecondSection p {
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#contentSecondSection figcaption {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: -45px;
+
+}
+
+#biler {
+    margin-top: 130px;
+}
+
+
+
+
+#contentFourthSection {
+    border-top: 2px solid;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#contentFourthSection .sectionWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+
+}
+
+
+#contentFourthSection h3 {
+    margin-top: 35px;
+    font-family: 'Roboto Mono',
+        monospace;
+
+}
+
+#contentFourthSection h4 {
+    margin-top: 35px;
+    font-family: 'Roboto Mono',
+        monospace;
+
+}
+
+
+#contentFourthSection p {
+
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+#contentFourthSection figcaption {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: -45px;
+
+}
+
+#royaltyfree {
+    margin-top: 130px;
+}
+
+
+#filmen {
+    width: 500px;
+    margin-top: 220px;
+    margin-left: 40px;
+}
+
+
+#contentFifthSection {
+    border-top: 2px solid;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#contentFifthSection .sectionWrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 15px;
+
+}
+
+#contentFifthSection h3 {
+    margin-top: 35px;
+    font-family: 'Roboto Mono',
+        monospace;
+
+}
+
+#contentFifthSection h4 {
+    margin-top: 35px;
+    font-family: 'Roboto Mono',
+        monospace;
+
+}
+
+
+#contentFifthSection p {
+
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+#contentFifthSection img {
+    margin-top: 75px;
+
+}
+
+
+
+#contentFifthSection figcaption {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+@media (max-width:680px) {
+
+
+    #contentFirstSection,
+    #contentSecondSection,
+    #contentThirdSection,
+    #contentFourthSection,
+    #contentFifthSection {
+        width: 80%;
+        margin-left: 28px;
+        margin-right: 28px;
+    }
+
+
+    #contentFirstSection {
+        padding-right: 30px;
+    }
+
+
+    #contentIntro p {
+        font-size: 13px;
+        text-align: justify;
+
+    }
+
+    #contentIntro {
+        margin-left: 28px;
+        margin-right: 28px;
+        margin-top: 10px;
+
+    }
+
+    #contentIntro .sectionWrapper {
+        margin-top: -22px;
+    }
+
+
+
+    #contentFirstSection .sectionWrapper {
+        display: grid;
+        grid-template-columns: none;
+        margin-left: 28px;
+        margin-right: 28px;
+
+    }
+
+
+    #contentFirstSection .col {
+        margin-top: -15;
+        margin-left: -28px;
+        margin-right: -60px;
+
+    }
+
+    #contentFirstSection .col2 {
+        margin-top: -15px;
+        margin-left: -28px;
+        margin-right: -60px;
+
+    }
+
+
+
+    #contentSecondSection .sectionWrapper {
+        display: grid;
+        grid-template-columns: none;
+        margin-left: 28px;
+        margin-right: 28px;
+    }
+
+    #contentSecondSection .colLeft {
+        margin-top: -15;
+        margin-left: -33px;
+        margin-right: 50px;
+
+    }
+
+    #contentSecondSection img {
+        margin-top: -18px;
+        width: 441px;
+        height: 300px;
+        margin-left: -100px;
+
+    }
+
+    #contentSecondSection figcaption {
+        margin-left: -100px;
+        font-size: 11px;
+    }
+
+    #contentThirdSection .sectionWrapper {
+        margin-left: -12px;
+        margin-right: -42px;
+    }
+
+
+    #contentFourthSection .sectionWrapper {
+        display: grid;
+        grid-template-columns: none;
+        margin-left: 28px;
+        margin-right: 28px;
+
+    }
+
+    #contentFourthSection .colLeft {
+        margin-top: -38px;
+        margin-left: -41px;
+        margin-right: 50px;
+    }
+
+    #contentFourthSection h3 {
+        margin-left: -15px;
+    }
+
+
+
+    #royaltyfree {
+        margin-top: -18px;
+        width: 434px;
+        height: 300px;
+        margin-left: -96px;
+    }
+
+    #filmen {
+        margin-top: -18px;
+        width: 434px;
+        height: 300px;
+        margin-left: -57px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+
+    }
+
+    #contentFourthSection figcaption {
+        margin-left: -96px;
+    }
+
+    #contentFifthSection .sectionWrapper {
+        display: grid;
+        grid-template-columns: none;
+        margin-left: 28px;
+        margin-right: 28px;
+    }
+
+    #contentFifthSection .col {
+        margin-left: -25px;
+        margin-right: 55px;
+    }
+
+
+    #contentFifthSection img {
+        margin-top: -18px;
+        width: 435px;
+        height: 300px;
+        margin-left: -96px;
+    }
+
+    #contentFifthSection h3 {
+        margin-bottom: -20.28px;
+    }
+
+    #contentFifthSection figcaption {
+        margin-left: -96px;
+    }
+
+}
+
+/*animations afsnit*/
+
+
+#animationFirstSection {
+    border-top: 2px solid;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#animationFirstSection h3 {
+    margin-top: 35px;
+    font-family: 'Roboto Mono',
+        monospace;
+
+}
+
+#animationFirstSection h4 {
+    margin-top: 35px;
+    font-family: 'Roboto Mono',
+        monospace;
+
+}
+
+#animationFirstSection p {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+#animationFirstSection img {
+    width: 50%;
+    margin-left: 270px;
+}
+
+
+
+#animationSecondSection {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+#animationSecondSection h3 {
+    margin-top: 35px;
+    font-family: 'Roboto Mono',
+        monospace;
+
+}
+
+#animationSecondSection h4 {
+    margin-top: 35px;
+    font-family: 'Roboto Mono',
+        monospace;
+
+}
+
+#animationSecondSection p {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+#animationSecondSection .sectionWrapperElementer {
+    margin-left: 98px;
+    margin-right: 14px;
+}
+
+#hvalborgskema {
+    margin-left: 340px;
+}
+
+
+
+#spilElementer1 div {
+    display: inline-block;
+    width: 23vw;
+    height: 12vw;
+    margin-right: 2vw;
+
+}
+
+.hvalborg {
+    background-image: url(hvalborg.svg);
+    background-repeat: no-repeat;
+
+}
+
+.stjerne {
+    background-image: url(stjerne.svg);
+    background-repeat: no-repeat;
+}
+
+.gobbel {
+    background-image: url(vandmand.svg);
+    background-repeat: no-repeat;
+}
+
+#spilElementer2 div {
+    display: inline-block;
+    width: 23vw;
+    height: 12vw;
+    margin-right: 2vw;
+
+}
+
+.flaske {
+    background-image: url(flaske.svg);
+    background-repeat: no-repeat;
+}
+
+.cola {
+    background-image: url(cola.svg);
+    background-repeat: no-repeat;
+}
+
+.kop {
+    background-image: url(krus.svg);
+    background-repeat: no-repeat;
+}
+
+
+@media (max-width:680px) {
+
+
+    #animationFirstSection,
+    #animationSecondSection {
+        width: 90%;
+        margin-left: 28px;
+        margin-right: 28px;
+    }
+
+    #animationFirstSection img {
+        width: 100%;
+        margin-left: 0;
+
+    }
+
+    #animationSecondSection .sectionWrapperElementer {
+        margin-left: -1px;
+        margin-right: 0;
+
+    }
+
+    #hvalborgskema {
+        margin-left: -16px;
+        width: 400px;
+        height: 209px;
+    }
+}
